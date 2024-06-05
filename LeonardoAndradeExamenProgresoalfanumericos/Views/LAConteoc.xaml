@@ -4,9 +4,20 @@
              x:Class="LeonardoAndradeExamenProgresoalfanumericos.Views.LAConteoc"
              Title="LAConteoc">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Entry x:Name="inputEntry" Placeholder="Conteo: "
+               />
+        <Button Text="Generar" Clicked="ClickGenerar"
+                />
+        <Label x:Name="numsLabel
+        <Label x:Name="letrasLabel"
+        <Label x:Name="vocalesLabel"/>
+        <Label x:Name="mayusculasLabel"/>
+        <Label x:Name="minusculasLabel"/>
+
+        <Label x:Name="total"/>
+
+        <Button Text="Limpio" Clicked="LimpioClick"/>
+        
+
     </VerticalStackLayout>
 </ContentPage>
